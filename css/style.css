@@ -1,0 +1,37 @@
+
+#anima-div{
+    background: url("../imgs/kirby.png") -9px -161px no-repeat;
+    height:25px;
+    width:23px;
+    animation: anima-sprite 0.7s steps(5) infinite;
+}
+
+@keyframes anima-sprite{
+    100%{background-position-x: -130px;}
+}
+
+#amimir{
+    height:25px;
+    width:22px;
+    background:url("../imgs/kirby.png") -10px -265px no-repeat;
+    animation: anima_mimir 1s steps(13) infinite;
+}
+
+@keyframes anima_mimir{
+    100%{background-position-x: -364compx;}
+}
+
+#correndin{
+    height:25px;
+    width:20px;
+    background:url("../imgs/kirby.png") -8px -106px no-repeat;
+    animation: anima_corre 0.45s steps(8) infinite;
+}
+
+@keyframes anima_corre{
+    100%{background-position-x: -195px;}
+}
+
+body{
+    background-color: black;
+}
